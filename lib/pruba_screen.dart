@@ -7,7 +7,7 @@ class PruebaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("prueba"), centerTitle: true),
-      body: const Center(child: Text("hola mundo")),
+      body: const Center(child: Text("hola mundo que hay de nuevo")),
     );
   }
 }
