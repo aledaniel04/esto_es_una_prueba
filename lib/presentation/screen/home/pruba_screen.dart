@@ -8,12 +8,12 @@ class PruebaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: const Text("prueba"), centerTitle: true),
-        body: const _homeView());
+        body: const _HomeView());
   }
 }
 
-class _homeView extends StatelessWidget {
-  const _homeView();
+class _HomeView extends StatelessWidget {
+  const _HomeView();
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,6 @@ class _homeView extends StatelessWidget {
 
 class _CustomListTile extends StatelessWidget {
   const _CustomListTile({
-    super.key,
     required this.menuItem,
   });
 
@@ -37,7 +36,7 @@ class _CustomListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      tileColor: Colors.blueGrey,
+      visualDensity: const VisualDensity(vertical: 4),
       leading: Icon(
         menuItem.icon,
         color: Colors.indigo,
