@@ -7,14 +7,17 @@ final appRouter = GoRouter(
   routes: [
     GoRoute(
       path: '/',
+      name: PruebaScreen.name,
       builder: (context, state) => const PruebaScreen(),
     ),
     GoRoute(
       path: '/SQLite',
+      name: PrimerSqliteScreen.name,
       builder: (context, state) => const PrimerSqliteScreen(),
     ),
     GoRoute(
       path: '/2SQLite',
+      name: SegundoSqliteScreen.name,
       builder: (context, state) => const SegundoSqliteScreen(),
     ),
   ],

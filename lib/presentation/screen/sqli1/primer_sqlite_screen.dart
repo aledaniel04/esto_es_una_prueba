@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PrimerSqliteScreen extends StatelessWidget {
+  static const String name = "Primera_SQLite_Screen";
   const PrimerSqliteScreen({super.key});
 
   @override

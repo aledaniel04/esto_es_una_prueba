@@ -1,8 +1,11 @@
 import 'package:esto_es_una_prueba/config/menu/menu_items.dart';
+import 'package:esto_es_una_prueba/presentation/screen/sqli1/primer_sqlite_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class PruebaScreen extends StatelessWidget {
+  static const String name = "Prueba_Screen";
+
   const PruebaScreen({super.key});
 
   @override
@@ -49,7 +52,9 @@ class _CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () {
-        //Navigator.pushNamed(context, menuItem.link);
+        //Navigator.pushNamed(context, menuItem.link); forma tradicional
+
+        //context.pushNamed(PrimerSqliteScreen.name); con nombre
 
         context.push(menuItem.link);
       },
