@@ -1,4 +1,4 @@
-import 'package:esto_es_una_prueba/pruba_screen.dart';
+import 'package:esto_es_una_prueba/presentation/screen/home/pruba_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
