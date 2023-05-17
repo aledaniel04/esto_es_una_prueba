@@ -1,5 +1,4 @@
 import 'package:esto_es_una_prueba/config/menu/menu_items.dart';
-import 'package:esto_es_una_prueba/presentation/screen/sqli1/primer_sqlite_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
