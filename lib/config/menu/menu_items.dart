@@ -18,5 +18,10 @@ const appMenuItems = <MenuItem>[
       title: "primer SQLite",
       subtitle: "ensayo de como usarlo",
       link: "/SQLite",
-      icon: Icons.data_array_outlined)
+      icon: Icons.data_array_outlined),
+  MenuItem(
+      title: "segundo SQLite",
+      subtitle: "seguimos",
+      link: "/2SQLite",
+      icon: Icons.access_alarm_outlined)
 ];
